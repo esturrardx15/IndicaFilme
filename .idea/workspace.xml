@@ -5,40 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="teste">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BlackFlix.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cute-avocado2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dados.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogador3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/BlackflixApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/controller/MovieController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/dto/MovieSearchCriteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/dto/SuggestionRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/exception/ApiError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/exception/BadRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/exception/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/model/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/model/Platform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/repository/MovieRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blackflix/service/MovieService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/apps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dados.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/first.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/first.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/DivinePatchDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/DivinePatchDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieSearchCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieSearchCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/ApiError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/StatusFilme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/StatusFilme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/InMemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/InMemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +31,16 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/Administrador/Estudos/Git/BlackFlix" value="39uVwfVOF5ImESH8WjTEJNV59ho" />
+      <entry key="_C:/Users/Administrador/Estudos/Git/IndicaFilmeGIT" value="3CcqxVq8f8jrFDkdU6DA3bmo0r1" />
       <entry key="_C:/Users/Administrador/Estudos/Git/indicaFilme" value="39w2JCdz0OrLDVW2It4nxQLCCK1" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -90,12 +81,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/esturrardx15/indicaFilme.git&quot;,
-    &quot;accountId&quot;: &quot;affd332f-6a92-4248-9b53-518e280c64a0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/esturrardx15/IndicaFilme",
+    "accountId": "affd332f-6a92-4248-9b53-518e280c64a0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
