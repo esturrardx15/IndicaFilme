@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="Adição de Services">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/doc/IndicaFilmesSwagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/SecurityConfig.java" afterDir="false" />
@@ -18,39 +23,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/IndicaFilmesApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/AdminProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/DataLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/HttpClientConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/MongoFallbackConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/DivinePatchDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/MovieDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/MovieRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/MovieSearchCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/ApiError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/BadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/model/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/model/Plataform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/model/StatusFilme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/repository/FilmeData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/repository/InMemoryMovieRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/repository/MovieRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/service/TmdbService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/homepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/indica-filmes-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/indica-filmes-1.0.0.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application-teste.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +32,28 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="0d87d90f-5d56-4b8a-94b8-6a10ab774bd7" />
+        <option name="activeSessionId" value="4a2ee496-71e4-4d85-bd4b-348b3385811a" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
             <option name="id" value="0d87d90f-5d56-4b8a-94b8-6a10ab774bd7" />
-            <option name="modeId" value="Ask" />
+            <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="claude-haiku-4.5" />
+            <option name="status" value="Completed" />
             <option name="targetType" value="LOCAL" />
           </session>
           <session>
             <option name="chatType" value="PANEL" />
             <option name="id" value="32319180-2ea5-4778-b10f-3d82d0778087" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="4a2ee496-71e4-4d85-bd4b-348b3385811a" />
             <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
@@ -89,6 +70,12 @@
       <entry key="_C:/Users/Administrador/Estudos/Git/IndicaFilmeGIT" value="3CcqxVq8f8jrFDkdU6DA3bmo0r1" />
       <entry key="_C:/Users/Administrador/Estudos/Git/indicaFilme" value="39w2JCdz0OrLDVW2It4nxQLCCK1" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Claude Haiku 4.5" />
+      <entry key="chat-panel" value="Claude Haiku 4.5" />
+    </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,6 +135,20 @@
   <component name="ProjectId" id="39uVwfVOF5ImESH8WjTEJNV59ho" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="file:///c%3A/snapshot/cls-source/dist/assets/agents/Plan.agent.md" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="claude-haiku-4.5" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
