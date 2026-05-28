@@ -4,17 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="teste">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/HttpClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/HttpClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/MongoFallbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/MongoFallbackConfig.java" afterDir="false" />
+    <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="Adição de Services">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/StatusFilme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/StatusFilme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/TmdbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/TmdbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/IndicaFilmesApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/AdminProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/DataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/HttpClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/MongoFallbackConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/DivinePatchDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/MovieDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/MovieRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/dto/MovieSearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/ApiError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/model/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/model/Plataform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/model/StatusFilme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/repository/FilmeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/repository/InMemoryMovieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/repository/MovieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/blade/indicafilme/service/TmdbService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/homepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/indica-filmes-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/indica-filmes-1.0.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application-teste.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="0d87d90f-5d56-4b8a-94b8-6a10ab774bd7" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="0d87d90f-5d56-4b8a-94b8-6a10ab774bd7" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="claude-haiku-4.5" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="32319180-2ea5-4778-b10f-3d82d0778087" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -69,12 +136,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/esturrardx15/IndicaFilme",
-    "accountId": "affd332f-6a92-4248-9b53-518e280c64a0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/esturrardx15/IndicaFilme&quot;,
+    &quot;accountId&quot;: &quot;affd332f-6a92-4248-9b53-518e280c64a0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -86,25 +153,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "JavaVersion",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrador/Estudos/Git/indicaFilme",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;JavaVersion&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrador/Estudos/Git/indicaFilme&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrador\Estudos\Git\indicaFilme\src\main\java\br.com.blade.indicafilme\com\blade\indicafilme" />
       <recent name="C:\Users\Administrador\Estudos\Git\indicaFilme\src\main\java\br.com.blade.indicafilme" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.blade.indicafilme.controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1771590395668</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adição de javadoc">
+      <option name="closed" value="true" />
+      <created>1776704301587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776704301587</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adição tmdbProperties">
+      <option name="closed" value="true" />
+      <created>1776704677741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776704677741</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adição de Services">
+      <option name="closed" value="true" />
+      <created>1776961871436</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776961871436</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +267,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java 25" />
     <MESSAGE value="teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+    <MESSAGE value="Adição de javadoc" />
+    <MESSAGE value="Adição tmdbProperties" />
+    <MESSAGE value="Adição de Services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de Services" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
