@@ -5,24 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="Adição de Services">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/doc/IndicaFilmesSwagger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/MongoFallbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/MongoFallbackConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/DivinePatchDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/DivinePatchDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieSearchCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieSearchCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/StatusPatchDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/StatusPatchDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/ApiError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Plataform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/Platform.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/StatusFilme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/model/StatusFilme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/InMemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/InMemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/MovieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/TmdbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/TmdbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="4a2ee496-71e4-4d85-bd4b-348b3385811a" />
+        <option name="activeSessionId" value="0d87d90f-5d56-4b8a-94b8-6a10ab774bd7" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -80,6 +84,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -160,7 +165,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;JavaVersion&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrador/Estudos/Git/indicaFilme&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
@@ -170,6 +175,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.blade.indicafilme.validation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrador\Estudos\Git\indicaFilme\src\main\java\br.com.blade.indicafilme\com\blade\indicafilme" />
       <recent name="C:\Users\Administrador\Estudos\Git\indicaFilme\src\main\java\br.com.blade.indicafilme" />
