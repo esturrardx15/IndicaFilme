@@ -6,12 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="Adição de Services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/AdminMovieControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/AdminMovieControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/DivinePatchDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/DivinePatchDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieSearchCriteriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieSearchCriteriaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/StatusPatchDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/StatusPatchDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +31,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="0d87d90f-5d56-4b8a-94b8-6a10ab774bd7" />
+        <option name="activeSessionId" value="7ab45915-daa4-4777-a799-307a28c52108" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -46,6 +56,23 @@
             <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="1537971b-e0fd-4720-8bf9-ee6ddf0909ce" />
+            <option name="modeId" value="file:///c%3A/snapshot/cls-source/dist/assets/agents/Plan.agent.md" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="claude-haiku-4.5" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="7ab45915-daa4-4777-a799-307a28c52108" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="claude-haiku-4.5" />
+            <option name="status" value="Completed" />
             <option name="targetType" value="LOCAL" />
           </session>
         </option>
