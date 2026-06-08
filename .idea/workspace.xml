@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="Adição de Services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieCacheService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/TmdbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/TmdbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/IndicaFilmesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
