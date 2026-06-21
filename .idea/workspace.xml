@@ -6,22 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1aea36-755c-4ac4-a751-4c416c130363" name="Changes" comment="Adição de Services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/AdminProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/config/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/AdminMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/dto/MovieRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/doc/IndicaFilmesSwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/controller/doc/IndicaFilmesSwagger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/repository/FilmeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/blade/indicafilme/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/AdminMovieControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/AdminMovieControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/DivinePatchDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/DivinePatchDtoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieSearchCriteriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieSearchCriteriaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/StatusPatchDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/StatusPatchDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/AdminMovieControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/DivinePatchDtoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/FilmeDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieCacheServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieDtoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieRequestDtoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieSearchCriteriaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/MovieServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br.com.blade.indicafilme/StatusPatchDtoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application-teste.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
